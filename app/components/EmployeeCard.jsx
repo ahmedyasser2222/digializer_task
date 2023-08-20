@@ -3,7 +3,7 @@ import React from 'react'
 
 const EmployeeCard = ({img,name,desc}) => {
   return (
-    <div className='e-card shadow-md'>
+    <div className='e-card shadow-lg'>
          <div className="div-img overflow-hidden ">
               <Image
                 src={img}

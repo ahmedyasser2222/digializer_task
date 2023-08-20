@@ -6,7 +6,7 @@ import React from "react";
 const Links = () => {
   return (
     <div className="hidden lg:block">
-       <div className="flex justify-between items-center gap-4 " >
+       <div className="flex justify-between items-center gap-4" >
       <Link href="/" className="p-5l link" >Buy</Link>
       <Link href="/" className="p-5l link" >Rent</Link>
       <Link href="/" className="p-5l link" >Off Plan</Link>

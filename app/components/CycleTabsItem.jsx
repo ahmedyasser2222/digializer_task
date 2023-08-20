@@ -9,14 +9,14 @@ const CycleTabsItem = ({ items }) => {
          setTabActive(tabNum)
     }
 
-    return (
-        <div className="cycles-tap-contain">
+    return (    
+        <div className="cycles-tap-conta">
             <div className="cycles-tap-wrap">
                 <div className="taps flex flex-row items-center gap-1 justify-center">
                      <ul className="flex flex-row items-center gap-1 justify-center my-3">
                         {items.map( (item , index) => (
                             <li 
-                            className={`${ (item.id === tabActive && "active bg-red-500" ) } btn-tab py-3 px-6  bg-gray-300 text-xl cursor-pointer`} 
+                            className={`${ (item.id === tabActive && "active " ) } btn-tab py-3 px-6  bg-gray-300 text-xl cursor-pointer`} 
                             onClick={ e => handelTab(item.id) } key={index}  >{item.title}</li>
                         ) )}
                      </ul>

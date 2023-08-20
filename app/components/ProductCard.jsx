@@ -8,7 +8,7 @@ import { BsArrowRight } from 'react-icons/bs'
 const DetailInfo = ({text,Icon}) => (
     <div className="flex flex-col justify-between items-center">
         <Icon size={20} className="card-icon"/>
-        <span className="text-xs mt-1">{text}</span>
+        <span className="text-xs mt-1 text-icon">{text}</span>
     </div>
 )
 
@@ -38,12 +38,12 @@ const ProductCard = () => {
                           <p className="p2 text-sm" >Lot: 104</p>
                       </div>
                       <div className="w-40 flex justify-end items-center gap-2">
-                           <Image 
+                          {/*  <Image 
                              src="https://www.destinationhomes.com/images/icon-directions.svg"
                              alt=''
                              width={20}
                              height={20}
-                           />
+                           /> */}
                            <p className="p-price">
                               <span>$534,900</span>
                            </p>

@@ -24,12 +24,11 @@
   }
 }
 
-body {
- 
+.lang-icon {
+  color: #878c9f ;
 }
-
-.link:hover {
-   color: blue !important;
+.link {
+  color: #000;
 }
 .input-search{
   border: 1px solid;
@@ -37,7 +36,10 @@ body {
 .btn-icon {
   border: 1px solid #ddd;
   color: black;
-
+}
+.bars {
+  color: white;
+  background-color: #173c3e;
 }
 
 .border-div {
@@ -63,6 +65,9 @@ body {
   min-height: calc(100vh - 55px);
   position: relative;
   width: 100%;
+}
+.sec-1 .swiper-button-prev ,.sec-1 .swiper-button-next {
+  color: #fff;
 }
 .sec-1 .btn-find {
    top: 40%;
@@ -129,8 +134,6 @@ body {
   --n: 4;
 }
 
-
-
 .sec-1 .swiper-slide img {
   position: absolute !important;
   top: 0;
@@ -156,6 +159,7 @@ body {
 }
 .btn-tab.active {
   color: white;
+  background-color: #173c3e;
 }
 .product-card {
   width: 100%;
@@ -208,17 +212,23 @@ body {
 }
 .product-card .d2 p {
   font-size: 15px;
-  color: #EE2E24;
+  color: #173c3e;
 }
 .product-card .card-icon {
-  color: #EE2E24;
+  color: #999;
 }
 .product-card .card-continue {
-  background-color: #EE2E24;
+  background-color: #173c3e;
   border-radius: 50%;
   width: 30px;
   height: 30px;
 }
+.product-card .text-icon {
+  color: #333;
+  font-weight: 800;
+  font-size: 12px;
+}
+
 /* ============================= */
 .sec-2 .mySwiper {
   height: 500px;
