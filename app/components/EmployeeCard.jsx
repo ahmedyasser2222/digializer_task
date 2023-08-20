@@ -11,8 +11,8 @@ const EmployeeCard = ({img,name,desc}) => {
                 alt=''
                />
          </div>
-         <div className="detail py-10 px-3 text-center">
-             <h5 className='text-xl'>{name}</h5>
+         <div className="detail py-6 px-2 text-center">
+             <h5 className='text-lg md:text-xl'>{name}</h5>
              <small>{desc}</small>
          </div>
     </div>

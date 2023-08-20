@@ -8,7 +8,7 @@ const Section4 = () => {
     <div className='sec-4'>
          <HeadSection text="Meet the Team" />
          <Container>
-         <div className="cards-emplyee flex justify-between items-center flex-wrap gap-y-5">
+         <div className="cards-emplyee flex justify-between items-center flex-wrap gap-y-5 ">
              <EmployeeCard name="team-member-name" desc="Associate Director " img="https://ahmedyasser2222.github.io/elearning/img/team-1.jpg" />
              <EmployeeCard name="Thomas Poulson" desc="Leasing Director" img="https://ahmedyasser2222.github.io/elearning/img/team-2.jpg" />
              <EmployeeCard name="Callum Fletcher" desc="Senior Dubai Hills Estate Consultant" img="https://ahmedyasser2222.github.io/elearning/img/team-3.jpg" />
