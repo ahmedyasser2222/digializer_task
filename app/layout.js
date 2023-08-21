@@ -2,6 +2,8 @@ import Header from './components/Header/Header'
 import './globals.css'
 import { Inter,Cairo } from 'next/font/google'
 import SearchModel from "./components/model/SearchModel"
+import NavButtom from "./components/NavButtom"
+import LabelButttom from "./components/LabelButttom"
 
 const inter = Inter({ subsets: ['latin'] })
 const cairo = Cairo({ subsets: ['latin'] })
@@ -20,6 +22,8 @@ export default function RootLayout({ children }) {
         <div>
           {children}
         </div>
+        <LabelButttom />
+        <NavButtom />
       </body>
     </html>
   )

@@ -25,13 +25,33 @@
 }
 
 .lang-icon {
-  color: #878c9f ;
+  color: #878c9f;
 }
 .link {
   color: #000;
 }
-.input-search{
+.input-search {
   border: 1px solid;
+}
+.icon-pencil {
+  background-color: #BBB8B2;
+}
+.icon-phone {
+  background-color: #2E2E3A;
+}
+.icon-whats {
+  background-color: #25D366;
+}
+.icon-telegeam {
+  background-color: #27A7E7;
+}
+.locale li:hover {
+  background-color: #f5f7fb;
+}
+
+.btn-nav-get {
+  background-color: #173c3e;
+  color: #fff;
 }
 .btn-icon {
   border: 1px solid #ddd;
@@ -45,44 +65,49 @@
 .border-div {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
-  padding: 20px 6px;  
+  padding: 20px 6px;
 }
 
 .btn-icon.list {
   border-left: none !important;
   background-color: #173c3e;
   color: white;
-  
 }
 .btn-icon.list:hover {
   background: linear-gradient(to right, #3b807b, #8fb9b4);
   font-size: 16px;
 }
+.lebel-buttom-num {
+  background-color: #3B807B; 
+}
+.text-xsm {
+  font-size: 11px;
+}
 .custome-slider {
   min-height: 100vh;
 }
- .sec-1 .mySwiper {
+.sec-1 .mySwiper {
   min-height: calc(100vh - 55px);
   position: relative;
   width: 100%;
 }
-.sec-1 .swiper-button-prev ,.sec-1 .swiper-button-next {
+.sec-1 .swiper-button-prev,
+.sec-1 .swiper-button-next {
   color: #fff;
 }
 .sec-1 .btn-find {
-   top: 40%;
-   left: 50%;
-   transform: translate(-50%);
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
 }
 .sec-1 .btn-find button {
   width: max-content !important;
   position: relative;
-
 }
 
 .sec-1 .btn-find button {
   --c: #173c3e;
-  color:  var(--c);
+  color: var(--c);
   font-size: 16px;
   border-radius: 0.5em;
   text-transform: uppercase;
@@ -138,8 +163,9 @@
   position: absolute !important;
   top: 0;
   left: 0;
+  object-fit: cover !important;
   width: 100vw !important;
-  height:  100vh !important;
+  height: 100vh !important;
 }
 /* =========================== */
 .head-section h2 {
@@ -165,7 +191,6 @@
   width: 100%;
   height: max-content;
   transition: transform 0.6s;
-
 }
 .product-card .div-img {
   position: relative;
@@ -177,7 +202,7 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   color: #fff !important;
   font-size: 12px;
   font-weight: 700;
@@ -199,10 +224,9 @@
 }
 .product-card .p-price {
   padding: 5px 10px;
-  background-color: #efefef
+  background-color: #efefef;
 }
 .product-card .p-price span {
-  
   text-align: center;
   font-size: 15px;
   line-height: 1;
@@ -240,29 +264,29 @@
   justify-content: center;
 }
 /* ============== */
-.photo-card { 
+.photo-card {
   width: 33.3%;
   height: 210px;
   overflow: hidden;
   background-color: black;
   cursor: pointer;
 }
-.photo-card img { 
+.photo-card img {
   opacity: 0.6;
 }
 
-.photo-card:hover img { 
-   transition: all 0.5s ease-out;
-   transform: scale(1.1);
-   opacity: .2;
+.photo-card:hover img {
+  transition: all 0.5s ease-out;
+  transform: scale(1.1);
+  opacity: 0.2;
 }
-.photo-card:hover   {
-  background-color: red;
+.photo-card:hover {
+  background-color: #173c3e;
 }
 
 /* ============ */
 .search-model select {
-  width: max-content
+  width: max-content;
 }
 .btn-search {
   background-color: #173c3e !important;
@@ -272,13 +296,12 @@
 .e-card {
   width: 22%;
   height: 380px;
-  background-color: #F0FBFC;
+  background-color: #f0fbfc;
 }
 .e-card .div-img {
   width: 100%;
   height: 260px;
   position: relative;
-
 }
 .e-card .div-img img {
   object-fit: cover;
@@ -293,26 +316,32 @@
   font-family: 700;
 }
 .sec-4 {
-   margin-bottom: 35px;
+  margin-bottom: 35px;
 }
-
-@media screen and (max-width : 650px) {
-  .photo-card { 
+/* md */
+@media screen and (max-width: 767px) {
+  .sec-1 .swiper-button-prev,
+  .sec-1 .swiper-button-next {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  .photo-card {
     width: 50%;
   }
   .e-card {
     width: 49%;
   }
 }
-@media screen and (max-width : 350px) {
-  .photo-card { 
+@media screen and (max-width: 350px) {
+  .photo-card {
     width: 100%;
   }
   .e-card {
     width: 80%;
   }
 }
-@media screen and (max-width : 350px) {
+@media screen and (max-width: 350px) {
   .cards-emplyee {
     justify-content: center !important;
   }

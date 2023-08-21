@@ -9,7 +9,7 @@ const Logo = () => {
   return (
     <Image
       alt="Logo"
-      className="cursor-pointer   py-5 lg:py-0"
+      className="cursor-pointer   py-3 lg:py-0"
       height="180"
       width="180"
       src="http://realestate.digializer.com/themes/estate/images/roofsnroots-herizontal-logo.svg"

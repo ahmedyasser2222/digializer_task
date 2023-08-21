@@ -20,6 +20,7 @@ const ProductCard = () => {
                  src="https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC9hYmNkMDYyMjhmZWIzMzkzMzA2ZmYwNDUwNTA5YTEwYi5qcGVn/exact/webp/2000/1125"
                  alt=''
                  fill
+                 className='z-0'
                />
                <div className="counter flex flex-row items-center gap-1 py-1 px-2 pointer-events-none">
                    <AiOutlineCamera size={16} />

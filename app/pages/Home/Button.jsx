@@ -6,7 +6,7 @@ const Button = () => {
 
   return (
     <button
-      className="bg-white py-0 px-14 "
+      className="bg-white py-0 px-14 hidden md:block "
       onClick={() => {
         searchModel.onOpen();
       }}
